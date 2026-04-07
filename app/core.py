@@ -1,7 +1,7 @@
 import random
 
 def rand100():
-    return random.randint(1, 50)
+    return random.randint(1, 100)
 
 def roll_dice(num_faces, num_dice):
     if num_faces < 1 or num_dice < 1:
